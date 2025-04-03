@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fareed Shaik - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("jhP0SX-1duVAa75ZR"); // Replace with your EmailJS Public Key
+        })();
+    </script>
+</head>
+<body>
+    <div id="starfield"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Fareed Shaik</h1>
+        <p>ETL Developer | Data Analyst </p>
+        <p>
+            <a href="mailto:fareedshaik1123@gmail.com" class="social-link">
+                <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail" class="social-logo">
+            </a>
+            <a href="https://www.linkedin.com/in/fareedshaik" class="social-link">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" class="social-logo">
+            </a>
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a results-driven Data Analyst with a strong foundation in designing scalable ETL pipelines, optimizing database performance, and leveraging big data technologies. I excel at transforming complex datasets into actionable insights. My experience spans developing efficient workflows with tools like Apache Spark, Talend, and AWS, alongside building predictive models using Python and machine learning techniques. Passionate about data integration, automation, and visualization, I thrive in collaborative environments, delivering innovative solutions that enhance operational efficiency and drive business success.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <h3>ETL Developer</h3>
+            <p>Invision Global Tech, Dallas | Sep 2024 - Present</p>
+            <ul class="left-align-bullets">
+                <li>Designed and optimized databases with Apache Spark and Talend, reducing ETL runtime by 25%.</li>
+                <li>Developed 15+ ETL workflows for seamless data integration.</li>
+                <li>Implemented CI/CD pipelines with Git and Jenkins, boosting deployment reliability by 20%.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>IT Analyst, Intern</h3>
+            <p>Invision Global Tech, Dallas | Aug 2023 - May 2024</p>
+            <ul class="left-align-bullets">
+                <li>Documented data models and ETL processes, reducing onboarding time by 30%.</li>
+                <li>Tuned SQL queries, cutting execution time by 22%.</li>
+                <li>Designed Python monitoring scripts, reducing manual oversight by 25%.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Data Analyst</h3>
+            <p>Accenture PVT Solutions, Hyderabad | May 2020 - June 2022</p>
+            <ul class="left-align-bullets">
+                <li>Built databases with AWS and Snowflake, reducing query latency by 15%.</li>
+                <li>Developed Python scripts with PySpark for EDA, improving throughput by 12%.</li>
+                <li>Created Tableau dashboards, increasing decision-making speed by 10%.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu">
+            <h3>Master of Science, Information Technology and Management</h3>
+            <p>The University of Texas at Dallas | May 2024</p>
+        </div>
+        <div class="edu">
+            <h3>Bachelor of Engineering, Electronics and Communication Engineering</h3>
+            <p>SRM University | May 2020</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:\Users\faree\Downloads\Plot.png" alt="Project Image" class="project-image">
+            <div class="project-text">
+                <h3>Optimizing Data Load Processes for Real-Time Inventory Tracking</h3>
+                <p>Designed a scalable ETL pipeline with Talend and Apache Spark, deployed a Random Forest model achieving 94% precision.</p>
+                <a href="https://github.com/Fareedshaik1123/Stockout_Risk_Prediction_using-_Rossmann_Data" target="_blank" class="github-button">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li><li>SQL</li><li>PySpark</li><li>Talend</li><li>Apache Spark</li>
+            <li>AWS</li><li>Snowflake</li><li>Tableau</li><li>CI/CD</li><li>Excel</li><li>ETL</li><li>Hadoop</li><li>Power BI</li><li>PL/SQL</li><li>R</li><li>Statistical Analysis</li><li>Scikit-Learn</li><li>Big Data</li><li>Apache Airflow</li><li>Data Modeling</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Reach Out to Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <textarea name="message" placeholder="Message" rows="4"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
+
+    <footer>
+        <p>© 2025 Fareed Shaik. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
